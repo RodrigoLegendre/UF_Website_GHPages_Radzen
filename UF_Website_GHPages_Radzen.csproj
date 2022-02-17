@@ -15,4 +15,8 @@
       <Content Remove="wwwroot\fonts\Kusanagi.css" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Kusanagi.otf" />
+    </ItemGroup>
+
 </Project>
