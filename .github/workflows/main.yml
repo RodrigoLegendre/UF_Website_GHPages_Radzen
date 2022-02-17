@@ -37,7 +37,7 @@ jobs:
       
     # Publish static files to GitHub Pages
     - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@4.2.5
+      uses: JamesIves/github-pages-deploy-action@4.x
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
